@@ -31,7 +31,7 @@ Aplikasi ini dapat dijalankan di semua peramban web modern, termasuk:
 1. Klon repositori ini: `git clone https://github.com/RobithYusuf/kalkulator-bunga-tabungan.git`
 2. Buka file `index.html` di peramban web Anda.
 
-Atau, Anda dapat mengakses aplikasi secara langsung melalui tautan berikut: [Kalkulator Bunga Tabungan](https://example.com/kalkulator-bunga-tabungan)
+Atau, Anda dapat mengakses aplikasi secara langsung melalui tautan berikut: [Live Demo](https://kalkulatorseabank.deployweb.site/)
 
 ## Kontribusi
 
