@@ -46,8 +46,21 @@ function formatNumber(number) {
   return number.toFixed(0).replace(/\d(?=(\d{3})+$)/g, "$&,");
 }
 
-function formatIDR(input) {
-  let value = input.value.replace(/\D/g, "");
-  let formattedValue = formatNumber(parseFloat(value));
-  input.value = formattedValue;
+function formatInputAmount(input) {
+    // Menghapus karakter non-digit dan non-koma
+    let value = input.value.replace(/[^0-9.,]/g, '');
+
+    // Menjaga hanya satu koma
+    value = value.replace(/,/g, '').replace(/\./, 'x').replace(/\./g, '').replace(/x/, '.');
+
+    // Menghapus koma di awal atau akhir string
+    value = value.replace(/^,/, '').replace(/,$/, '');
+
+    // Menambahkan koma setelah tiga digit dari depan
+    value = value.replace(/\B(?=(\d{3})+(?!\d)\.?)/g, ".");
+
+    // Mengganti titik dengan koma untuk ribuan
+    value = value.replace(/\./g, ',');
+
+    input.value = value;
 }
