@@ -38,7 +38,7 @@ function calculateInterest() {
   document.getElementById("annualTax").innerHTML = `Rp. ${formatNumber(annualTax)}`;
   document.getElementById("annualNetInterest").innerHTML = `Rp. ${formatNumber(annualNetInterest)}`;
 
-  const conclusion = `Jika menabung Rp ${formatNumber(amount)}, di Sea Bank, akan mendapatkan keuntungan bersih per harinya Rp ${formatNumber(dailyNetInterest)}`;
+  const conclusion = `Jika menabung Rp ${formatNumber(amount)}, di SeaBank, akan mendapatkan keuntungan bersih per harinya Rp ${formatNumber(dailyNetInterest)}`;
   document.getElementById('conclusion').innerHTML = `<p>${conclusion}</p>`;
 }
 
