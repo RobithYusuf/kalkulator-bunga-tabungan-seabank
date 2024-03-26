@@ -2,7 +2,7 @@
 
 ![Kalkulator Bunga Tabungan](https://i.postimg.cc/K8qvW0Ld/Screenshot-43.png)
 
-Kalkulator Bunga Tabungan adalah aplikasi web sederhana yang memungkinkan Anda untuk menghitung bunga tabungan berdasarkan suku bunga dan saldo yang diberikan. Aplikasi ini dirancang untuk memberikan pengalaman pengguna yang mulus dan mudah digunakan.
+Kalkulator Bunga Tabungan SeaBank adalah aplikasi web sederhana yang memungkinkan Anda untuk menghitung bunga tabungan bank SeaBank berdasarkan suku bunga dan saldo yang ditetapkan. Aplikasi ini dirancang untuk memberikan pengalaman pengguna yang mudah digunakan.
 
 ## Fitur
 
