@@ -39,9 +39,12 @@
         <label for="amount">Total Uang:</label>
         <div class="input-container">
             <div class="input-group">
-                <div class="input-group-prepend"> <span class="currency-icon">Rp</span> </div> <input type="text"
-                    id="amount" placeholder="Masukkan total uang" oninput="formatIDR(this)">
-            </div> <button onclick="calculateInterest()">Hitung Bunga</button>
+                <div class="input-group-prepend">
+                    <span class="currency-icon">Rp</span>
+                </div>
+                <input type="text" id="amount" placeholder="Masukkan total uang" oninput="formatIDR(this)">
+            </div>
+            <button onclick="calculateInterest()">Hitung Bunga</button>
         </div>
 
         <div id="result" class="result">
@@ -82,6 +85,14 @@
                     </tr>
                 </tbody>
             </table>
+            <div id="conclusion" class="conclusion">
+                <p class="placeholder-text">Masukkan Total Uang dan Klik "Hitung Bunga"</p>
+                <div class="paralax-lines">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+            </div>
         </div>
     </div>
     <footer>

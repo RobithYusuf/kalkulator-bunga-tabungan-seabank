@@ -1,7 +1,8 @@
 function calculateInterest() {
   const amountInput = document.getElementById("amount").value;
   const amount = parseFloat(amountInput.replace(/\D/g, ""));
-  const interestRate = 0.0375; // 4% per tahun
+  const interestRate = 0.0375; // 3.75% per tahun
+
   const dailyInterest = (amount * interestRate) / 365;
   const monthlyInterest = dailyInterest * 30;
   const quarterlyInterest = monthlyInterest * 3;
@@ -9,14 +10,12 @@ function calculateInterest() {
 
   let dailyTax = 0;
   let monthlyTax = 0;
+  let quarterlyTax = 0;
+  let annualTax = 0;
+
   if (amount > 7500000) {
     dailyTax = dailyInterest * 0.2;
     monthlyTax = monthlyInterest * 0.2;
-  }
-
-  let quarterlyTax = 0;
-  let annualTax = 0;
-  if (amount > 7500000) {
     quarterlyTax = quarterlyInterest * 0.2;
     annualTax = annualInterest * 0.2;
   }
@@ -38,6 +37,9 @@ function calculateInterest() {
   document.getElementById("annualInterest").innerHTML = `Rp. ${formatNumber(annualInterest)}`;
   document.getElementById("annualTax").innerHTML = `Rp. ${formatNumber(annualTax)}`;
   document.getElementById("annualNetInterest").innerHTML = `Rp. ${formatNumber(annualNetInterest)}`;
+
+  const conclusion = `Jika menabung Rp ${formatNumber(amount)}, di Sea Bank, akan mendapatkan keuntungan bersih per harinya Rp ${formatNumber(dailyNetInterest)}`;
+  document.getElementById('conclusion').innerHTML = `<p>${conclusion}</p>`;
 }
 
 function formatNumber(number) {

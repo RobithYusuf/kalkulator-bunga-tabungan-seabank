@@ -74,7 +74,6 @@ button {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
-
 }
 
 .result th {
@@ -148,6 +147,60 @@ button {
 .bank-info img {
   height: 50px;
   width: auto;
+}
+
+.conclusion {
+  background-color: #f2f7ff;
+  border: 1px solid #cce0ff;
+  border-radius: 4px;
+  /* padding: 10px; */
+  margin-top: 25px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.paralax-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.line {
+  position: absolute;
+  width: 200%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  animation: paralax 10s linear infinite;
+}
+
+.line-1 {
+  top: 25%;
+  animation-delay: 0s;
+}
+
+.line-2 {
+  top: 50%;
+  animation-delay: -5s;
+}
+
+.line-3 {
+  top: 75%;
+  animation-delay: -2.5s;
+}
+
+@keyframes paralax {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
 }
 footer {
   color: #333;
