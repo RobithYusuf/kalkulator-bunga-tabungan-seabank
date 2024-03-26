@@ -64,6 +64,9 @@ button {
 .result table {
   width: 100%;
   border-collapse: collapse;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
 }
 
 .result th,
@@ -71,6 +74,7 @@ button {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
+
 }
 
 .result th {
@@ -81,6 +85,11 @@ button {
   background-color: #f5f5f5;
 }
 
+@media (max-width: 600px) {
+  .result table {
+    font-size: 14px;
+  }
+}
 .input-container {
   display: flex;
   justify-content: space-between;
