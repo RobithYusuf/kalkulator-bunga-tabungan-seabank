@@ -17,7 +17,7 @@ body {
 h1 {
   text-align: center;
   color: #333;
-  margin-top: 4px;
+  margin-top: 15px;
 }
 
 h2 {
@@ -150,43 +150,43 @@ button {
 }
 
 .info {
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
-    border-radius: 6px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .info p {
-    position: relative;
-    padding-left: 20px;
-    margin: 0;
-    line-height: 1.6;
-    font-size: 14px;
-    color: #555;
+  position: relative;
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 14px;
+  color: #555;
 }
 
 .info p::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #333;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #333;
 }
 
 .info p:first-child {
-    font-weight: bold;
-    color: #333;
-    padding-left: 0;
+  font-weight: bold;
+  color: #333;
+  padding-left: 0;
 }
 
 .info p:first-child::before {
-    display: none;
+  display: none;
 }
 .conclusion {
   background-color: #f2f7ff;
