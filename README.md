@@ -46,9 +46,3 @@ Kontribusi sangat dihargai! Jika Anda menemukan bug atau memiliki saran untuk pe
 ## Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/MIT).
-
-## Kontak
-
-Robith Yusuf Al Fahsa - [@RobithYusuf](https://github.com/RobithYusuf)
-
-Project Link: [https://github.com/RobithYusuf/kalkulator-bunga-tabungan](https://github.com/RobithYusuf/kalkulator-bunga-tabungan)
