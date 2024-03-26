@@ -28,14 +28,14 @@ Aplikasi ini dapat dijalankan di semua peramban web modern, termasuk:
 
 ## Instalasi
 
-1. Klon repositori ini: `git clone https://github.com/robith_ya/kalkulator-bunga-tabungan.git`
+1. Klon repositori ini: `git clone https://github.com/RobithYusuf/kalkulator-bunga-tabungan.git`
 2. Buka file `index.html` di peramban web Anda.
 
 Atau, Anda dapat mengakses aplikasi secara langsung melalui tautan berikut: [Kalkulator Bunga Tabungan](https://example.com/kalkulator-bunga-tabungan)
 
 ## Kontribusi
 
-Kontribusi sangat dihargai! Jika Anda menemukan bug atau memiliki saran untuk perbaikan, silakan buka [issue baru](https://github.com/robith_ya/kalkulator-bunga-tabungan/issues/new).
+Kontribusi sangat dihargai! Jika Anda menemukan bug atau memiliki saran untuk perbaikan, silakan buka [issue baru](https://github.com/RobithYusuf/kalkulator-bunga-tabungan/issues/new).
 
 1. Fork repositori ini
 2. Buat branch baru: `git checkout -b fitur/fitur-baru`
@@ -49,6 +49,6 @@ Proyek ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/M
 
 ## Kontak
 
-Robith Yusuf Al Fahsa - [@robith_ya](https://github.com/robith_ya)
+Robith Yusuf Al Fahsa - [@RobithYusuf](https://github.com/RobithYusuf)
 
-Project Link: [https://github.com/robith_ya/kalkulator-bunga-tabungan](https://github.com/robith_ya/kalkulator-bunga-tabungan)
+Project Link: [https://github.com/RobithYusuf/kalkulator-bunga-tabungan](https://github.com/RobithYusuf/kalkulator-bunga-tabungan)
