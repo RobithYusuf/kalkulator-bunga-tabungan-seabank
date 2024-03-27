@@ -21,8 +21,8 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/seabank.png">
 
-    <!-- CSS Styles Versi 2.1 -->
-    <link rel="stylesheet" href="styles.css?v=2.1">
+    <!-- CSS Styles Versi 2.1.1 -->
+    <link rel="stylesheet" href="styles.css?v=2.1.1">
 
 </head>
 
@@ -55,15 +55,15 @@
                     <label for="amount">Total Saldo Tabungan:</label>
                     <div class="input-container">
                         <div class="input-group">
-                        
+
                             <div class="input-group-prepend">
                                 <span class="currency-icon">Rp</span>
                             </div>
                             <input type="text" id="amount" placeholder="Masukkan total uang"
                                 oninput="formatInputAmount(this)" required>
+                            <button onclick="calculateTabunganInterest()">Hitung Bunga</button>
                         </div>
                         <p class="note">*Bunga yang diperoleh bisa saja berbeda sesuai S&K yang berlaku.</p>
-                        <button onclick="calculateTabunganInterest()">Hitung Bunga</button>
                     </div>
 
 
@@ -133,9 +133,9 @@
                             </div>
                             <input type="text" id="amount2" placeholder="Masukkan total uang"
                                 oninput="formatInputAmount(this)" required>
-                                <p class="note">*Bunga yang diperoleh bisa saja berbeda sesuai S&K yang berlaku.</p>
                             <button onclick="calculateDepositoInterest()">Hitung Bunga</button>
                         </div>
+                        <p class="note">*Bunga yang diperoleh bisa saja berbeda sesuai S&K yang berlaku.</p>
                     </div>
 
                     <div id="deposito-result" class="result">
