@@ -140,6 +140,7 @@ button {
   border-radius: 0 0.25rem 0.25rem 0;
 }
 
+
 .bank-info {
   display: flex;
   align-items: center;
@@ -206,11 +207,11 @@ button {
 }
 
 .tab-content {
-  padding: 30px;
-  background-color: #fff;
-  border: 2px solid #dee2e6;
-  border-radius: 6px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .tab-pane {
@@ -252,6 +253,7 @@ button {
 }
 
 .info p:first-child {
+  margin-top: 10px !important;
   font-weight: bold;
   color: #333;
   padding-left: 0;
@@ -449,8 +451,26 @@ footer {
 .created-by {
   margin-right: 10px;
 }
-@media screen and (max-width: 600px) {
-  .container {
-    max-width: 100%;
+/* @media screen and (max-width: 600px) {
+  .input-container {
+    flex-direction: column;
+    align-items: stretch;
   }
-}
+
+  .input-container .input-group {
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+
+  .input-container input[type="text"] {
+    flex: 1 0 100%;
+    margin-right: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+  }
+
+  .input-container button {
+    width: 100%;
+    margin-top: 10px;
+  }
+} */
