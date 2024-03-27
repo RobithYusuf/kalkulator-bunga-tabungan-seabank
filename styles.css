@@ -409,7 +409,8 @@ button {
 
   color: #666; /* Mengubah warna teks menjadi abu-abu */
   font-style: italic; /* Membuat teks miring */
-  margin-top: 8px; /* Menambahkan jarak antara tabel dan keterangan */
+  margin-top: 8px;
+  margin-bottom: -20px;
 }
 footer {
   color: #333;
