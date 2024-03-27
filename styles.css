@@ -405,8 +405,8 @@ button {
 }
 
 .note {
-  font-size: 1px !important;
-  zoom: 0.8;
+  font-size: 10px !important;
+
   color: #666; /* Mengubah warna teks menjadi abu-abu */
   font-style: italic; /* Membuat teks miring */
   margin-top: 8px; /* Menambahkan jarak antara tabel dan keterangan */

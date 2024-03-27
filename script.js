@@ -109,6 +109,21 @@ function formatInputAmount(input) {
 document.addEventListener("DOMContentLoaded", function () {
   const tabLinks = document.querySelectorAll(".nav-link");
   const tabPanes = document.querySelectorAll(".tab-pane");
+  const mainHeading = document.getElementById("main-heading");
+
+  // Fungsi untuk mengatur judul dan heading
+  function setTitleAndHeading(tabName) {
+    if (tabName === "tabungan") {
+      document.title = "Kalkulator Bunga Tabungan";
+      mainHeading.textContent = "Kalkulator Bunga Tabungan";
+    } else if (tabName === "deposito") {
+      document.title = "Kalkulator Bunga Deposito";
+      mainHeading.textContent = "Kalkulator Bunga Deposito";
+    } else {
+      document.title = "Kalkulator Bunga";
+      mainHeading.textContent = "Kalkulator Bunga";
+    }
+  }
 
   // Fungsi untuk mengaktifkan tab
   function activateTab(hash) {
@@ -126,11 +141,21 @@ document.addEventListener("DOMContentLoaded", function () {
     tabPanes.forEach((pane) => {
       if (pane.id === targetPane.id) {
         pane.classList.add("show", "active");
+        setTitleAndHeading(pane.id.replace("#", ""));
       } else {
         pane.classList.remove("show", "active");
       }
     });
   }
+
+  // Event listener untuk transisi antara tab pane
+  tabPanes.forEach((pane) => {
+    pane.addEventListener("transitionend", function () {
+      if (pane.classList.contains("show")) {
+        setTitleAndHeading(pane.id.replace("#", ""));
+      }
+    });
+  });
 
   // Event listener untuk klik tab
   tabLinks.forEach((link) => {
