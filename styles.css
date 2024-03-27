@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 20px;
+  margin-top: 10px;
   color: #666;
 }
 
@@ -410,7 +410,6 @@ button {
   color: #666; /* Mengubah warna teks menjadi abu-abu */
   font-style: italic; /* Membuat teks miring */
   margin-top: 5px;
-  margin-bottom: -20px;
 }
 footer {
   color: #333;
