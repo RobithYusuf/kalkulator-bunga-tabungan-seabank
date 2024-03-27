@@ -195,8 +195,8 @@ button {
 .nav-tabs .nav-link.active {
   color: #333;
   background-color: #fff;
-  border-color: #007bff;
-  border-bottom-color: #007bff;
+  border: 1px solid #b5d6fafb;
+  border-bottom: 2px solid #007bff;
 }
 
 .nav-tabs .nav-link:hover {
