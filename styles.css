@@ -60,13 +60,13 @@ button {
   background-color: #f9f9f9;
   padding: 10px;
   border-radius: 4px;
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .result table {
   width: 100%;
   border-collapse: collapse;
-  overflow-x: auto;
-  display: block;
   white-space: nowrap;
 }
 
@@ -458,12 +458,13 @@ footer {
   h2 {
     font-size: 18px;
   }
+
   .result table {
     font-size: 14px;
   }
   .conclusion-tabungan p,
   .conclusion-deposito p {
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
   .input-container {
     flex-direction: column; /* Mengubah arah flex menjadi vertikal */
