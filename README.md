@@ -43,6 +43,3 @@ Kontribusi sangat dihargai! Jika Anda menemukan bug atau memiliki saran untuk pe
 4. Push ke branch: `git push origin fitur/fitur-baru`
 5. Buat Pull Request
 
-## Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/MIT).
